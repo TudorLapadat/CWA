@@ -1,0 +1,81 @@
+
+.homeContainer {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hero {
+    background-color: #e0f7fa;
+    padding: 60px 20px;
+  }
+  
+  .title {
+    font-size: 3rem;
+    color: #007acc;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .searchButton {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 5px;
+  }
+  
+  .searchButton:hover {
+    background-color: #005999;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+  }
+  
+  .featureItem {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .featureItem h2 {
+    color: #007acc;
+    margin-bottom: 10px;
+  }
+  
+  .featureItem p {
+    color: #666;
+  }
+  
+  .promo {
+    margin: 50px 0;
+    padding: 30px;
+    background-color: #fff3e0;
+    border-radius: 10px;
+  }
+  
+  .promoButton {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 5px;
+  }
+  
+  .promoButton:hover {
+    background-color: #e68900;
+  }
+  

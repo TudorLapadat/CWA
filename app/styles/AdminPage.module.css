@@ -1,0 +1,117 @@
+.adminContainer {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.adminTitle {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.formSection, .listSection {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  color: #444;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #0070f3;
+  padding-bottom: 5px;
+}
+
+.accommodationForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.selectField, .inputField, .datePickerInput {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.selectField:focus, .inputField:focus, .datePickerInput:focus {
+  border-color: #0070f3;
+  outline: none;
+}
+
+.datePickerContainer {
+  display: flex;
+  align-items: center;
+}
+
+.addButton, .submitButton, .editButton, .deleteButton {
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.addButton:hover, .submitButton:hover, .editButton:hover, .deleteButton:hover {
+  background-color: #005bb5;
+}
+
+.availabilitySection {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px dashed #0070f3;
+  border-radius: 4px;
+}
+
+.accommodationList, .bookingList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.listItem {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  position: relative;
+  transition: box-shadow 0.3s;
+}
+
+.listItem:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.listItem p {
+  margin: 5px 0;
+}
+
+.editButton {
+  background-color: #ffa500;
+}
+
+.editButton:hover {
+  background-color: #cc8400;
+}
+
+.deleteButton {
+  background-color: #ff4d4d;
+  margin-left: 10px;
+}
+
+.deleteButton:hover {
+  background-color: #e60000;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
